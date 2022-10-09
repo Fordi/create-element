@@ -1,0 +1,18 @@
+{
+  "name": "@fordi-org/create-element",
+  "version": "1.0.0",
+  "description": "Convert a structured POJSO to DOM",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Bryan Elliott <ook@codemonkeybryan.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-recommended": "^4.1.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-import": "^2.26.0",
+    "typescript": "^4.8.4"
+  }
+}

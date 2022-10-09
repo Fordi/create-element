@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "umd",
+    "target": "es2015",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}
