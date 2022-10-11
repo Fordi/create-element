@@ -63,7 +63,7 @@ If you want to convert an SVG or HTML file to the start of a component, it's eas
 `undo-icon.svg`
 
 ```svg
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" xml:space="preserve">
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512">
   <path d="M256 0a256 256 0 1 1 0 512 256 256 0 0 1 0-512zm-32 352v-64s128-32 192 64c0-106-86-192-192-192V96L96 224l128 128z"/>
 </svg>
 ```
@@ -84,8 +84,7 @@ const UndoIcon = () => (
   [[SVG, "svg"], {
     xmlns: SVG,
     width: "512",
-    height: "512",
-    "xml:space": "preserve"
+    height: "512"
   }, [
     [[SVG, "path"], {
       d: "M256 0a256 256 0 1 1 0 512 256 256 0 0 1 0-512zm-32 352v-64s128-32 192 64c0-106-86-192-192-192V96L96 224l128 128z"
