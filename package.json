@@ -4,7 +4,7 @@
   "description": "Convert a structured POJSO to DOM",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -m umd --outDir dist/umd; tsc -m esnext --outDir dist/esm"
   },
   "author": "Bryan Elliott <ook@codemonkeybryan.com>",
   "license": "ISC",
